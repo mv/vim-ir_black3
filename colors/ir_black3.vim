@@ -222,6 +222,10 @@ endif
 " Special for PHP
 
 
-highlight SignColumn guibg=darkgrey
-
+" Special for Vim 7.3
+if version >= 703       " Vim 7.x specific colors
+    hi    CursorColumn guifg=NONE  guibg=black gui=NONE ctermfg=NONE  ctermbg=NONE  cterm=BOLD
+    hi    ColorColumn  guifg=NONE  guibg=black gui=NONE ctermfg=NONE  ctermbg=NONE  cterm=BOLD
+    hi    SignColumn   guifg=white guibg=black gui=bold ctermfg=white ctermbg=black cterm=bold
+endif
 
