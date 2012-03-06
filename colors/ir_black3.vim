@@ -67,6 +67,8 @@ let colors_name = "ir_black3"
 
 " General colors
  hi Normal           guifg=#f6f3e8     guibg=#121212     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
+ hi Normal           guifg=#f6f3e8     guibg=#242424     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
+ hi Normal           guifg=#f6f3e8     guibg=#181818     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
  hi NonText          guifg=white       guibg=black       gui=NONE      ctermfg=black       ctermbg=NONE        cterm=NONE
  hi Cursor           guifg=gray        guibg=blue        gui=NONE      ctermfg=black       ctermbg=white       cterm=reverse
 
@@ -222,10 +224,6 @@ endif
 " Special for PHP
 
 
-" Special for Vim 7.3
-if version >= 703       " Vim 7.x specific colors
-    hi    CursorColumn guifg=NONE  guibg=black gui=NONE ctermfg=NONE  ctermbg=NONE  cterm=BOLD
-    hi    ColorColumn  guifg=NONE  guibg=black gui=NONE ctermfg=NONE  ctermbg=NONE  cterm=BOLD
-    hi    SignColumn   guifg=white guibg=black gui=bold ctermfg=white ctermbg=black cterm=bold
-endif
+highlight SignColumn guibg=darkgrey
+
 
