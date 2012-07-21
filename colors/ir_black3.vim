@@ -66,8 +66,8 @@ let colors_name = "ir_black3"
 "hi Example         guifg=NONE        guibg=NONE        gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
 
 " General colors
- hi Normal           guifg=#f6f3e8     guibg=#121212     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
- hi Normal           guifg=#f6f3e8     guibg=#242424     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
+"hi Normal           guifg=#f6f3e8     guibg=#121212     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
+"hi Normal           guifg=#f6f3e8     guibg=#242424     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
  hi Normal           guifg=#f6f3e8     guibg=#181818     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
  hi NonText          guifg=white       guibg=black       gui=NONE      ctermfg=black       ctermbg=NONE        cterm=NONE
  hi Cursor           guifg=gray        guibg=blue        gui=NONE      ctermfg=black       ctermbg=white       cterm=reverse
@@ -76,11 +76,11 @@ let colors_name = "ir_black3"
  hi SignColumn       guifg=white       guibg=black       gui=bold      ctermfg=white       ctermbg=black       cterm=bold
 
  hi VertSplit        guifg=white       guibg=#202020     gui=NONE      ctermfg=darkgray    ctermbg=darkgray    cterm=NONE
- hi StatusLine       guifg=#CCCCCC     guibg=blue        gui=italic    ctermfg=white       ctermbg=darkgray    cterm=NONE
+"hi StatusLine       guifg=#CCCCCC     guibg=blue        gui=italic    ctermfg=white       ctermbg=darkgray    cterm=NONE
  hi StatusLine       guifg=#CCCCCC     guibg=darkblue    gui=italic    ctermfg=white       ctermbg=darkblue    cterm=NONE
  hi StatusLineNC     guifg=black       guibg=gray        gui=NONE      ctermfg=blue        ctermbg=darkgray    cterm=NONE
 
- hi Folded           guifg=#a0a8b0     guibg=#384048     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
+"hi Folded           guifg=#a0a8b0     guibg=#384048     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
  hi Folded           guifg=white       guibg=darkblue    gui=NONE      ctermfg=white       ctermbg=darkblue    cterm=NONE
  hi Title            guifg=#f6f3e8     guibg=NONE        gui=bold      ctermfg=NONE        ctermbg=NONE        cterm=NONE
 "hi Visual           guifg=NONE        guibg=#262D51     gui=NONE      ctermfg=NONE        ctermbg=darkgray    cterm=NONE
