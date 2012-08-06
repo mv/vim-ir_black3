@@ -139,10 +139,13 @@ endif
 "hi DiffAdd	        guifg=#7C7C7C     guibg=NONE        gui=NONE      ctermfg=NONE        ctermbg=4           cterm=NONE
 "hi DiffDelete	    guifg=#C7C7C7     guibg=NONE        gui=NONE      ctermfg=4           ctermbg=6           cterm=bold
 
- hi DiffChange	    guifg=NONE        guibg=#505050     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
- hi DiffAdd	        guifg=green       guibg=#505050     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
- hi DiffDelete	    guifg=darkred     guibg=#606060     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
+"hi DiffAdd	        guifg=green       guibg=#505050     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
+"hi DiffDelete	    guifg=darkred     guibg=#606060     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
+
+ hi DiffAdd	        guifg=green       guibg=#404040     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
+ hi DiffDelete	    guifg=darkred     guibg=#404040     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
  hi DiffText	    guifg=white       guibg=darkred     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
+ hi DiffChange	    guifg=NONE        guibg=#505050     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
 
  hi link Character       Constant
  hi link Boolean         Constant
