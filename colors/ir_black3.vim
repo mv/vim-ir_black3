@@ -129,12 +129,12 @@ endif
  hi Function       guifg=#FFD2A7 guibg=NONE    gui=NONE ctermfg=brown     ctermbg=NONE cterm=NONE
 
  hi Statement      guifg=#6699CC guibg=NONE    gui=NONE ctermfg=lightblue ctermbg=NONE cterm=NONE
- hi Conditional    guifg=#6699CC guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE " if else end
- hi Repeat         guifg=#6699CC guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE " if else end
- hi Label          guifg=#6699CC guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE " if else end
+ hi Conditional    guifg=#6699CC guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE
+ hi Repeat         guifg=#6699CC guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE
+ hi Label          guifg=#6699CC guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE
  hi Operator       guifg=#88b8f6 guibg=NONE    gui=NONE ctermfg=white     ctermbg=NONE cterm=NONE
  hi Keyword        guifg=#88b8f6 guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE
- hi Exception      guifg=#88b8f6 guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE " if else end
+ hi Exception      guifg=#88b8f6 guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE
 
  hi PreProc        guifg=#96CBFE guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE
  hi Include        guifg=#96CBFE guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE
