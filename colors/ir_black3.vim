@@ -115,56 +115,58 @@ if version >= 700 " Vim 7.x specific colors
 endif
 
 " Syntax highlighting
- hi Comment         guifg=#7C7C7C     guibg=NONE        gui=NONE      ctermfg=darkgray    ctermbg=NONE        cterm=NONE
- hi String          guifg=#A8FF60     guibg=NONE        gui=NONE      ctermfg=green       ctermbg=NONE        cterm=NONE
- hi Number          guifg=#FF73FD     guibg=NONE        gui=NONE      ctermfg=magenta     ctermbg=NONE        cterm=NONE
- hi Number          guifg=#C6C5FE     guibg=NONE        gui=NONE      ctermfg=cyan        ctermbg=NONE        cterm=NONE
+ hi Comment        guifg=#7C7C7C guibg=NONE    gui=NONE ctermfg=darkgray  ctermbg=NONE cterm=NONE
+ hi Comment        guifg=#00A0A0 guibg=NONE    gui=NONE ctermfg=cyan      ctermbg=NONE cterm=NONE
 
- hi Keyword         guifg=#96CBFE     guibg=NONE        gui=NONE      ctermfg=blue        ctermbg=NONE        cterm=NONE
- hi PreProc         guifg=#96CBFE     guibg=NONE        gui=NONE      ctermfg=blue        ctermbg=NONE        cterm=NONE
- hi Conditional     guifg=#6699CC     guibg=NONE        gui=NONE      ctermfg=blue        ctermbg=NONE        cterm=NONE  " if else end
+ hi Constant       guifg=#99CC99 guibg=NONE    gui=NONE ctermfg=cyan      ctermbg=NONE cterm=NONE
+ hi String         guifg=#95e454 guibg=NONE    gui=NONE ctermfg=green     ctermbg=NONE cterm=NONE
+ hi Character      guifg=#99CC99 guibg=NONE    gui=NONE ctermfg=cyan      ctermbg=NONE cterm=NONE
+ hi Number         guifg=#C6C5FE guibg=NONE    gui=NONE ctermfg=cyan      ctermbg=NONE cterm=NONE
+ hi Boolean        guifg=#99CC99 guibg=NONE    gui=NONE ctermfg=cyan      ctermbg=NONE cterm=NONE
+ hi Float          guifg=#C6C5FE guibg=NONE    gui=NONE ctermfg=cyan      ctermbg=NONE cterm=NONE
 
- hi Todo            guifg=#8f8f8f     guibg=NONE        gui=NONE      ctermfg=red         ctermbg=NONE        cterm=NONE
- hi Constant        guifg=#99CC99     guibg=NONE        gui=NONE      ctermfg=cyan        ctermbg=NONE        cterm=NONE
+ hi Identifier     guifg=#C6C5FE guibg=NONE    gui=NONE ctermfg=cyan      ctermbg=NONE cterm=NONE
+ hi Function       guifg=#FFD2A7 guibg=NONE    gui=NONE ctermfg=brown     ctermbg=NONE cterm=NONE
 
- hi Identifier      guifg=#C6C5FE     guibg=NONE        gui=NONE      ctermfg=cyan        ctermbg=NONE        cterm=NONE
- hi Function        guifg=#FFD2A7     guibg=NONE        gui=NONE      ctermfg=brown       ctermbg=NONE        cterm=NONE
- hi Type            guifg=#FFFFB6     guibg=NONE        gui=NONE      ctermfg=yellow      ctermbg=NONE        cterm=NONE
- hi Statement       guifg=#6699CC     guibg=NONE        gui=NONE      ctermfg=lightblue   ctermbg=NONE        cterm=NONE
+ hi Statement      guifg=#6699CC guibg=NONE    gui=NONE ctermfg=lightblue ctermbg=NONE cterm=NONE
+ hi Conditional    guifg=#6699CC guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE " if else end
+ hi Repeat         guifg=#6699CC guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE " if else end
+ hi Label          guifg=#6699CC guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE " if else end
+ hi Operator       guifg=#88b8f6 guibg=NONE    gui=NONE ctermfg=white     ctermbg=NONE cterm=NONE
+ hi Keyword        guifg=#88b8f6 guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE
+ hi Exception      guifg=#88b8f6 guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE " if else end
 
- hi Special         guifg=#E18964     guibg=NONE        gui=NONE      ctermfg=white       ctermbg=NONE        cterm=NONE
- hi Delimiter       guifg=#00A0A0     guibg=NONE        gui=NONE      ctermfg=cyan        ctermbg=NONE        cterm=NONE
- hi Operator        guifg=white       guibg=NONE        gui=NONE      ctermfg=white       ctermbg=NONE        cterm=NONE
+ hi PreProc        guifg=#96CBFE guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE
+ hi Include        guifg=#96CBFE guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE
+ hi Define         guifg=#96CBFE guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE
+ hi Macro          guifg=#96CBFE guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE
+ hi PreCondit      guifg=#96CBFE guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE
 
-"hi DiffAdd	        guifg=#7C7C7C     guibg=NONE        gui=NONE      ctermfg=NONE        ctermbg=4           cterm=NONE
-"hi DiffDelete	    guifg=#C7C7C7     guibg=NONE        gui=NONE      ctermfg=4           ctermbg=6           cterm=bold
 
-"hi DiffAdd	        guifg=green       guibg=#505050     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
-"hi DiffDelete	    guifg=darkred     guibg=#606060     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
+ hi Type           guifg=#FFFFB6 guibg=NONE    gui=NONE ctermfg=yellow    ctermbg=NONE cterm=NONE
+ hi StorageClass   guifg=#FFFFB6 guibg=NONE    gui=NONE ctermfg=yellow    ctermbg=NONE cterm=NONE
+ hi Structure      guifg=#FFFFB6 guibg=NONE    gui=NONE ctermfg=yellow    ctermbg=NONE cterm=NONE
+ hi Typedef        guifg=#FFFFB6 guibg=NONE    gui=NONE ctermfg=yellow    ctermbg=NONE cterm=NONE
 
- hi DiffAdd	        guifg=green       guibg=#404040     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
- hi DiffDelete	    guifg=darkred     guibg=#404040     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
- hi DiffText	    guifg=white       guibg=darkred     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
- hi DiffChange	    guifg=NONE        guibg=#505050     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
+ hi Special        guifg=#E18964 guibg=NONE    gui=NONE ctermfg=white     ctermbg=NONE cterm=NONE
+ hi SpecialChar    guifg=#E18964 guibg=NONE    gui=NONE ctermfg=white     ctermbg=NONE cterm=NONE
+ hi Tag            guifg=#E18964 guibg=NONE    gui=NONE ctermfg=white     ctermbg=NONE cterm=NONE
+ hi Delimiter      guifg=#e5786d guibg=NONE    gui=NONE ctermfg=cyan      ctermbg=NONE cterm=NONE
+ hi SpecialComment guifg=#e5786d guibg=NONE    gui=NONE ctermfg=white     ctermbg=NONE cterm=NONE
+ hi Debug          guifg=#e5786d guibg=NONE    gui=NONE ctermfg=white     ctermbg=NONE cterm=NONE
 
- hi link Character       Constant
- hi link Boolean         Constant
- hi link Float           Number
- hi link Repeat          Statement
- hi link Label           Statement
- hi link Exception       Statement
- hi link Include         PreProc
- hi link Define          PreProc
- hi link Macro           PreProc
- hi link PreCondit       PreProc
- hi link StorageClass    Type
- hi link Structure       Type
- hi link Typedef         Type
- hi link Tag             Special
- hi link SpecialChar     Special
- hi link SpecialComment  Special
- hi link Debug           Special
+ hi Underlined     guifg=#E18964 guibg=NONE    gui=underline ctermfg=white     ctermbg=NONE cterm=NONE
 
+ hi Ignore         guifg=#9C998E guibg=NONE    gui=NONE ctermfg=white     ctermbg=NONE cterm=NONE
+ hi Error          guifg=#FFFFFF guibg=#FF0000 gui=NONE ctermfg=white     ctermbg=NONE cterm=NONE
+ hi Todo           guifg=#857B6F guibg=#fff000 gui=NONE ctermfg=red       ctermbg=NONE cterm=NONE
+
+
+" VimDiff
+ hi DiffAdd        guifg=green   guibg=#404040 gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+ hi DiffDelete     guifg=darkred guibg=#404040 gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+ hi DiffText       guifg=white   guibg=darkred gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+ hi DiffChange     guifg=NONE    guibg=#505050 gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 
 " Special for Ruby
  hi rubyRegexp                  guifg=#B18A3D      guibg=NONE      gui=NONE      ctermfg=brown          ctermbg=NONE      cterm=NONE
@@ -174,16 +176,6 @@ endif
  hi rubyControl                 guifg=#6699CC      guibg=NONE      gui=NONE      ctermfg=blue           ctermbg=NONE      cterm=NONE  "and break, etc
 "hi rubyGlobalVariable          guifg=#FFCCFF      guibg=NONE      gui=NONE      ctermfg=lightblue      ctermbg=NONE      cterm=NONE  "yield
  hi rubyStringDelimiter         guifg=#336633      guibg=NONE      gui=NONE      ctermfg=lightgreen     ctermbg=NONE      cterm=NONE
-"rubyInclude
-"rubySharpBang
-"rubyAccess
-"rubyPredefinedVariable
-"rubyBoolean
-"rubyClassVariable
-"rubyBeginEnd
-"rubyRepeatModifier
-"hi link rubyArrayDelimiter    Special  " [ , , ]
-"rubyCurlyBlock  { , , }
 
  hi link rubyClass             Keyword
  hi link rubyModule            Keyword
@@ -194,19 +186,6 @@ endif
  hi link rubyGlobalVariable    Identifier
  hi link rubyClassVariable     Identifier
  hi link rubyConstant          Type
-
-
-" Special for Java
-" hi link javaClassDecl    Type
- hi link javaScopeDecl         Identifier
- hi link javaCommentTitle      javaDocSeeTag
- hi link javaDocTags           javaDocSeeTag
- hi link javaDocParam          javaDocSeeTag
- hi link javaDocSeeTagParam    javaDocSeeTag
-
- hi javaDocSeeTag              guifg=#CCCCCC     guibg=NONE        gui=NONE      ctermfg=darkgray    ctermbg=NONE        cterm=NONE
- hi javaDocSeeTag              guifg=#CCCCCC     guibg=NONE        gui=NONE      ctermfg=darkgray    ctermbg=NONE        cterm=NONE
-"hi javaClassDecl              guifg=#CCFFCC     guibg=NONE        gui=NONE      ctermfg=white       ctermbg=NONE        cterm=NONE
 
 
 " Special for XML
@@ -220,20 +199,6 @@ endif
  hi link htmlTagName     Conditional
  hi link htmlEndTag      Identifier
 
-
-" Special for Javascript
- hi link javaScriptNumber      Number
-
-
-" Special for Python
-"hi  link pythonEscape         Keyword
-
-
-" Special for CSharp
- hi  link csXmlTag             Keyword
-
-
-" Special for PHP
 
 
 highlight SignColumn guibg=darkgrey
