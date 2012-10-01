@@ -108,7 +108,7 @@ if version >= 700 " Vim 7.x specific colors
   hi MatchParen     guifg=#f6f3e8     guibg=#857b6f     gui=BOLD      ctermfg=white       ctermbg=darkgray    cterm=NONE
   hi Pmenu          guifg=#f6f3e8     guibg=#444444     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
   hi PmenuSel       guifg=#000000     guibg=#cae682     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
-  hi Search         guifg=black       guibg=#96CBFE     gui=underline ctermfg=NONE        ctermbg=NONE        cterm=underline
+  hi Search         guifg=white       guibg=#c6c5fe     gui=underline ctermfg=NONE        ctermbg=NONE        cterm=underline
 endif
 
 " Syntax highlighting
@@ -120,42 +120,42 @@ endif
  hi Character      guifg=#99CC99 guibg=NONE    gui=NONE ctermfg=cyan      ctermbg=NONE cterm=NONE
  hi Number         guifg=#C6C5FE guibg=NONE    gui=NONE ctermfg=cyan      ctermbg=NONE cterm=NONE
  hi Boolean        guifg=#99CC99 guibg=NONE    gui=NONE ctermfg=cyan      ctermbg=NONE cterm=NONE
- hi Float          guifg=#C6C5FE guibg=NONE    gui=NONE ctermfg=cyan      ctermbg=NONE cterm=NONE
+ hi Float          guifg=#C9C900 guibg=NONE    gui=NONE ctermfg=cyan      ctermbg=NONE cterm=NONE
 
- hi Identifier     guifg=#C6C5FE guibg=NONE    gui=NONE ctermfg=cyan      ctermbg=NONE cterm=NONE
+ hi Identifier     guifg=#E18964 guibg=NONE    gui=NONE ctermfg=brown     ctermbg=NONE cterm=NONE
  hi Function       guifg=#FFD2A7 guibg=NONE    gui=NONE ctermfg=brown     ctermbg=NONE cterm=NONE
 
- hi Statement      guifg=#6699CC guibg=NONE    gui=NONE ctermfg=lightblue ctermbg=NONE cterm=NONE
- hi Conditional    guifg=#6699CC guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE
- hi Repeat         guifg=#6699CC guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE
- hi Label          guifg=#6699CC guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE
+ hi Statement      guifg=#88b8f6 guibg=NONE    gui=NONE ctermfg=lightblue ctermbg=NONE cterm=NONE
+ hi Conditional    guifg=#CC9966 guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE
+ hi Repeat         guifg=#00C9C9 guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE
+ hi Label          guifg=#00F0F0 guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE
  hi Operator       guifg=#88b8f6 guibg=NONE    gui=NONE ctermfg=white     ctermbg=NONE cterm=NONE
  hi Keyword        guifg=#88b8f6 guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE
- hi Exception      guifg=#88b8f6 guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE
+ hi Exception      guifg=#6699CC guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE
 
  hi PreProc        guifg=#96CBFE guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE
  hi Include        guifg=#96CBFE guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE
- hi Define         guifg=#96CBFE guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE
- hi Macro          guifg=#96CBFE guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE
+ hi Define         guifg=#00A0A0 guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE
+ hi Macro          guifg=#A0A000 guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE
  hi PreCondit      guifg=#96CBFE guibg=NONE    gui=NONE ctermfg=blue      ctermbg=NONE cterm=NONE
 
  hi Type           guifg=#FFFFB6 guibg=NONE    gui=NONE ctermfg=yellow    ctermbg=NONE cterm=NONE
  hi StorageClass   guifg=#FFFFB6 guibg=NONE    gui=NONE ctermfg=yellow    ctermbg=NONE cterm=NONE
  hi Structure      guifg=#FFFFB6 guibg=NONE    gui=NONE ctermfg=yellow    ctermbg=NONE cterm=NONE
- hi Typedef        guifg=#FFFFB6 guibg=NONE    gui=NONE ctermfg=yellow    ctermbg=NONE cterm=NONE
+ hi Typedef        guifg=#B6FFFF guibg=NONE    gui=NONE ctermfg=yellow    ctermbg=NONE cterm=NONE
 
- hi Special        guifg=#E18964   guibg=NONE    gui=NONE      ctermfg=white ctermbg=NONE cterm=NONE
- hi SpecialChar    guifg=#E18964   guibg=NONE    gui=NONE      ctermfg=white ctermbg=NONE cterm=NONE
- hi Tag            guifg=#E18964   guibg=NONE    gui=NONE      ctermfg=white ctermbg=NONE cterm=NONE
+ hi Special        guifg=white     guibg=#008080 gui=NONE      ctermfg=white ctermbg=NONE cterm=NONE
+ hi SpecialChar    guifg=white     guibg=#008080 gui=NONE      ctermfg=white ctermbg=NONE cterm=NONE
+ hi Tag            guifg=#00A0A0   guibg=NONE    gui=NONE      ctermfg=white ctermbg=NONE cterm=NONE
  hi Delimiter      guifg=#e5786d   guibg=NONE    gui=NONE      ctermfg=cyan  ctermbg=NONE cterm=NONE
- hi SpecialComment guifg=#e5786d   guibg=NONE    gui=NONE      ctermfg=white ctermbg=NONE cterm=NONE
- hi Debug          guifg=#e5786d   guibg=NONE    gui=NONE      ctermfg=white ctermbg=NONE cterm=NONE
+ hi SpecialComment guifg=#7C7C7C   guibg=NONE    gui=NONE      ctermfg=white ctermbg=NONE cterm=NONE
+ hi Debug          guifg=#008080   guibg=NONE    gui=NONE      ctermfg=white ctermbg=NONE cterm=NONE
 
  hi Underlined     guifg=#E18964   guibg=NONE    gui=underline ctermfg=white ctermbg=NONE cterm=NONE
 
- hi Ignore         guifg=lightgray guibg=#008080 gui=BOLD      ctermfg=white ctermbg=NONE cterm=NONE
- hi Error          guifg=#FFFFFF   guibg=#FF0000 gui=BOLD      ctermfg=white ctermbg=NONE cterm=NONE
- hi Todo           guifg=lightgray guibg=#808000 gui=BOLD      ctermfg=gray  ctermbg=yellow cterm=NONE
+ hi Ignore         guifg=#7C7C7C   guibg=NONE    gui=underline ctermfg=white ctermbg=NONE cterm=NONE
+ hi Error          guifg=#FFFFFF   guibg=#FF0000 gui=underline ctermfg=white ctermbg=NONE cterm=NONE
+ hi Todo           guifg=lightgray guibg=#808000 gui=underline ctermfg=gray  ctermbg=yellow cterm=NONE
 
 
 " VimDiff
