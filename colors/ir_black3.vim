@@ -79,7 +79,7 @@ let colors_name = "ir_black3"
 "hi StatusLine       guifg=#CCCCCC     guibg=blue        gui=italic    ctermfg=white       ctermbg=darkgray    cterm=NONE
 "hi StatusLine       guifg=#CCCCCC     guibg=darkblue    gui=italic    ctermfg=white       ctermbg=darkblue    cterm=NONE
  hi StatusLine       guifg=white       guibg=darkcyan    gui=italic    ctermfg=white       ctermbg=darkcyan    cterm=NONE
- hi StatusLineNC     guifg=black       guibg=gray        gui=NONE      ctermfg=blue        ctermbg=darkgray    cterm=NONE
+ hi StatusLineNC     guifg=darkcyan    guibg=gray        gui=NONE      ctermfg=blue        ctermbg=darkgray    cterm=NONE
 
 "hi Folded           guifg=#a0a8b0     guibg=#384048     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
  hi Folded           guifg=white       guibg=darkblue    gui=NONE      ctermfg=white       ctermbg=darkblue    cterm=NONE
